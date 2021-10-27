@@ -1,12 +1,13 @@
-const items = [
-    cart1 = {
-        type = image,
-        name = 'bridge',
-    },
+import { renderImg } from "./img.js";
+import { renderAudio } from "./audio.js";
+import { renderVideo } from "./video.js";
 
-    cart2 = {
-        type = image,
-        name = 'mount',
-    }
 
-];
+
+function start() {
+    renderImg();
+    renderAudio();
+    renderVideo();
+}
+
+start();

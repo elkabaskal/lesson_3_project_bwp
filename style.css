@@ -1,3 +1,37 @@
+.container {
+    max-width: 1140px;
+    padding: 0 10px 0 10px;
+    margin: 0 auto;
+}
+
 .header {
     color: red;
+    padding: 0 10px;
+}
+
+.img {
+    width: 300px;
+    height: 200px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-item {
+    padding: 10px 10px;
+    margin: 10px 10px;
+    border: 1px solid #000;
+}
+
+.desc {
+    text-align: center;
+}
+
+@media (max-width: 1040px) {
+    .box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }

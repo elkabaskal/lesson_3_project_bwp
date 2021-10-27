@@ -1,0 +1,25 @@
+{
+    "name": "lesson_3_project_bwp",
+    "version": "1.0.0",
+    "description": "",
+    "main": "script.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "serve": "webpack serve --mode=development"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/elkabaskal/lesson_3_project_bwp.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/elkabaskal/lesson_3_project_bwp/issues"
+    },
+    "homepage": "https://github.com/elkabaskal/lesson_3_project_bwp#readme",
+    "devDependencies": {
+        "webpack-cli": "^4.9.1",
+        "webpack-dev-server": "^4.3.1"
+    }
+}
