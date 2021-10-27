@@ -5,7 +5,9 @@
     "main": "script.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "serve": "webpack serve --mode=development"
+        "serve": "webpack serve --mode=development",
+        "dev": "webpack --mode=development",
+        "build": "webpack --mode=production"
     },
     "repository": {
         "type": "git",
@@ -19,6 +21,12 @@
     },
     "homepage": "https://github.com/elkabaskal/lesson_3_project_bwp#readme",
     "devDependencies": {
+        "css-loader": "^6.5.0",
+        "file-loader": "^6.2.0",
+        "html-webpack-plugin": "^5.5.0",
+        "mini-css-extract-plugin": "^2.4.3",
+        "style-loader": "^3.3.1",
+        "webpack": "^5.60.0",
         "webpack-cli": "^4.9.1",
         "webpack-dev-server": "^4.3.1"
     }
